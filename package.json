@@ -29,6 +29,6 @@
     "nodeos-boot-singleUser": "^0.5.2",
     "nodeos-boot-singleUserMount": "^0.5.2",
     "nodeos-mount-utils": "^0.2.0",
-    "rimraf": "^2.6.1"
+    "rimraf": "^3.0.0"
   }
 }
