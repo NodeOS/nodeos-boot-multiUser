@@ -25,7 +25,7 @@
     "exclfs": "^0.0.5",
     "jocker": "^0.0.1",
     "linux-cmdline": "^1.0.0",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^1.0.0",
     "nodeos-boot-singleUser": "^0.5.2",
     "nodeos-boot-singleUserMount": "^0.5.2",
     "nodeos-mount-utils": "^0.2.0",
