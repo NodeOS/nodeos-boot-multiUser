@@ -5,7 +5,9 @@
   "main": "lib",
   "bin": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,8 @@
     "nodeos-boot-singleUser": "^0.5.2",
     "nodeos-boot-singleUserMount": "^0.5.2",
     "nodeos-mount-utils": "^0.2.0",
-    "rimraf": "^2.6.1"
-  }
+    "rimraf": "^2.6.1",
+    "snyk": "^1.319.0"
+  },
+  "snyk": true
 }
